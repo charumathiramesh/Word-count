@@ -18,7 +18,9 @@ Finding the given length of the words by using len() fuction.
 ## Step 6:
 Calling the function and Printing the number of words
 
-## PROGRAM:## Developed by: Charumathi R
+## PROGRAM:
+```
+## Developed by: Charumathi R
 ## Reference Number: 22006878
 num_word=0
 with open ("sample.txt",'r') as f:
@@ -26,6 +28,7 @@ with open ("sample.txt",'r') as f:
  word=i.split()
  num_word+=len(word)
 print("number of words ={}".format(num_word))
+```
 
 ### OUTPUT:
 ![OUTPUT](./wordcount.jpeg)
